@@ -29,4 +29,4 @@ if __name__ == '__main__':
     if gradle_exists:
         run('idea  %s/build.gradle' % folder_name)
     else:
-        run('xdg-open %s/pom.xml' % folder_name)
+        run('open %s/pom.xml' % folder_name)
